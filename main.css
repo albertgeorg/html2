@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+    font-family: Roboto,sans-serif!important;
+    font-size: clamp(1.6rem,2vw,2rem);
+    line-height: 1.4;
+}
+
+.site-header-home{
+    align-items: center;
+    display: flex;
+    height: 64px;
+}
+.site-header-container{
+    align-items: center;
+    display: flex;
+    height: 88px;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1165px;
+}
+.site-header-nav-list{
+    display: flex;
+    font-size: 20px;
+    list-style-type: none;
+    justify-content: center;
+    gap: 1em;
+}
+.site-header-nav---nav{
+    background-color: #fff;
+    margin: 0;
+}
+.site-header-button{
+   background-color: #0052cc;
+   border-radius: 4px;
+   text-align: center;
+   font-size: 25px;
+   
+   margin-right: 25px;
+   width: 159px;
+   height: 48px;
+}
+.site-header-button a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.navbutton{
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+.site-main{
+    background-color: #edf0f6;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(3rem,3vmin,4rem);
+    padding: clamp(3rem,3vmin,4rem) 0;
+   
+}
+.c-computers{
+   margin-left: 50px;
+    max-inline-size: 130rem;
+    max-width: 130rem;
+    padding: 0 5vw;
+    width: 80%;
+    align-items: center;
+
+}
